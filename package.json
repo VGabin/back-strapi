@@ -25,9 +25,12 @@
     "styled-components": "^6.0.0"
   },
   "devDependencies": {
+    "@strapi/helper-plugin": "4.25.12",
+    "@strapi/types": "^5.12.6",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "esbuild": "^0.25.3",
     "typescript": "^5"
   },
   "engines": {
@@ -36,5 +39,6 @@
   },
   "strapi": {
     "uuid": "f55b32b2-2a29-498f-9651-0e703946c553"
-  }
+  },
+  "packageManager": "yarn@4.9.1+sha512.f95ce356460e05be48d66401c1ae64ef84d163dd689964962c6888a9810865e39097a5e9de748876c2e0bf89b232d583c33982773e9903ae7a76257270986538"
 }
